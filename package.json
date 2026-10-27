@@ -1,0 +1,25 @@
+{
+  "name": "devops-cicd-project",
+  "version": "1.0.0",
+  "description": "Production-style CI/CD pipeline project",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "devops",
+    "cicd",
+    "docker",
+    "github-actions"
+  ],
+  "author": "Mohd Shams Uddin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.3.1"
+  }
+}
